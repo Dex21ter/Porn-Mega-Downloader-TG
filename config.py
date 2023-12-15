@@ -4,10 +4,10 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") # ⚠️ Required
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "") # ⚠️ Required
+    API_ID    = os.environ.get("API_ID", "22058339")  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "e0bf6ba5aad3001aa235c323ff25e312") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6610426555:AAEUGUQM8YEE05h0D6pxWXTA73eRevfbzok") # ⚠️ Required
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "http://t.me/Megafiledownload_bot") # ⚠️ Required
    
     # database config
     DB_URL  = os.environ.get("DB_URL","")  # ⚠️ Required
